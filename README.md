@@ -1,3 +1,6 @@
-# lab1-2022
+# lab1-2022 - Laboratório de Programação I
 
-Laboratório de Programação 1 UFSM
+ELC1025 UFSM\
+Aluno: Emanuel Rigão Copetti
+([emanu4761@gmail.com](mailto:emanu4761@gmail.com))\
+sala 334, prédio 7
