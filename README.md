@@ -4,4 +4,5 @@ REPOSITÓRIO DE EXERCÍCIOS DA DISCIPLINA\
 ELC1025 UFSM\
 Aluno: Emanuel Rigão Copetti
 ([emanu4761@gmail.com](mailto:emanu4761@gmail.com))\
+Turma: CC2\
 sala 334, prédio 7
