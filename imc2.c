@@ -39,7 +39,7 @@ int main() {
             printf("Você possui obesidade grau I");
         } else if ((indice >= 35)&&(indice <= 39.9)){
             printf("Você possui obesidade grau II");
-        } else if (indice >= 40){
+        } else {
             printf("Você possui obesidade grau III");
         }
     return 0;
