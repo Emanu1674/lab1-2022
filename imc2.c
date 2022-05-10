@@ -2,7 +2,7 @@
 #include <locale.h>
 
 //função que calcula IMC
-float imc(int peso, float alt) {
+float imc(float peso, float alt) {
     float indice;
     
     indice = (peso/(alt*alt));
