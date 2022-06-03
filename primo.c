@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <locale.h>
 
 bool primo (int n){
     if (n < 2) {return 0;} else
@@ -15,6 +16,9 @@ bool primo (int n){
 }
 
 int main(){
+
+    setlocale(LC_ALL, "Portuguese");
+
     int p, i, n;
     n = 0;
     i = 0;
