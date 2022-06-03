@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <locale.h>
 
 int aleat(int max, int min) {
     return rand()%(max-min)+min;
@@ -17,17 +18,17 @@ int maior(int t, int w[t]) {
             m = w[i];
         }
     }
-    return m
+    return m;
 }
 
 int ind_maior(int t, int w[t]) {
     int im = 0;
     for (int i=1; i<t; i++) {
         if (w[i] > w[im]) {
-            im = wi;
+            im = i;
         }
     }
-    return m
+    return im;
 }
 
 int ord(int t, int w[t]) {
@@ -35,6 +36,7 @@ int ord(int t, int w[t]) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Portuguese");
     float v[10], ACC=0, SUM=0;
     srand(time(0));
     //Lê os números
