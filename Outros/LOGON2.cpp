@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <iostream>
 #include <locale.h>
-#include <string.h>
+#include <strings.h>
 #include <windows.h>
+#include <unistd.h>
 
 using namespace std;
 
